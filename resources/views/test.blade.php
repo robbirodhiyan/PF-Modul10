@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('content')
+    @push('scripts')
+        <script>
+            $(document).ready(function(){
+                $('#employeeTable').DataTable();
+            });
+        </script>
+    @endpush
+@endsection
